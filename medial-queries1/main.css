@@ -1,3 +1,31 @@
 body {
   background: blanchedalmond;
+  }
+
+.a{
+  border: solid;
+  background-color: blueviolet !important;
+  flex-grow: 2;
+  align-items: center;
+  text-align: center;
+}
+
+.b{
+ 
+  border: solid;
+  background-color: aqua;
+  flex-grow: 6;
+  text-align: center;
+}
+.c{
+  border: solid;  
+  background-color: aliceblue;
+  flex-grow: 2;
+}
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
